@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E336CA8E215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */; };
+		E336CA91215DF7E400108CC3 /* C4_3_PRSTENI(BOJ3036).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E336CA8F215DF7E400108CC3 /* C4_3_PRSTENI(BOJ3036).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +36,7 @@
 		E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_3_KOLONE(BOJ3048).cpp"; sourceTree = "<group>"; };
 		E336CA86215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C2_4_SJECISTA(BOJ3049)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_4_SJECISTA(BOJ3049).cpp"; sourceTree = "<group>"; };
+		E336CA8F215DF7E400108CC3 /* C4_3_PRSTENI(BOJ3036).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C4_3_PRSTENI(BOJ3036).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */,
+				E336CA8F215DF7E400108CC3 /* C4_3_PRSTENI(BOJ3036).cpp */,
 				E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */,
 			);
 			name = Contest2;
@@ -160,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E336CA8E215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp in Sources */,
+				E336CA91215DF7E400108CC3 /* C4_3_PRSTENI(BOJ3036).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
