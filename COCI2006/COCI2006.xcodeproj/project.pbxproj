@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E336CA81215CD0C100108CC3 /* C2_3_KOLONE(BOJ3048).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */; };
 		E336CA8E215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */; };
 /* End PBXBuildFile section */
 
@@ -162,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E336CA8E215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp in Sources */,
-				E336CA81215CD0C100108CC3 /* C2_3_KOLONE(BOJ3048).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
