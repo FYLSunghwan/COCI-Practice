@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E336CA81215CD0C100108CC3 /* C2_3_KOLONE(BOJ3048).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */; };
+		E336CA8E215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E336CA74215CCFF700108CC3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E336CA84215DE87D00108CC3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		E336CA76215CCFF700108CC3 /* COCI2006 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COCI2006; sourceTree = BUILT_PRODUCTS_DIR; };
 		E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_3_KOLONE(BOJ3048).cpp"; sourceTree = "<group>"; };
+		E336CA86215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C2_4_SJECISTA(BOJ3049)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_4_SJECISTA(BOJ3049).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E336CA73215CCFF700108CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E336CA83215DE87D00108CC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				E336CA76215CCFF700108CC3 /* COCI2006 */,
+				E336CA86215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */,
+				E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */,
 			);
 			name = Contest2;
 			path = COCI2006;
@@ -83,6 +104,23 @@
 			productReference = E336CA76215CCFF700108CC3 /* COCI2006 */;
 			productType = "com.apple.product-type.tool";
 		};
+		E336CA85215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E336CA8C215DE87D00108CC3 /* Build configuration list for PBXNativeTarget "C2_4_SJECISTA(BOJ3049)" */;
+			buildPhases = (
+				E336CA82215DE87D00108CC3 /* Sources */,
+				E336CA83215DE87D00108CC3 /* Frameworks */,
+				E336CA84215DE87D00108CC3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C2_4_SJECISTA(BOJ3049)";
+			productName = "C2_4_SJECISTA(BOJ3049)";
+			productReference = E336CA86215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +131,9 @@
 				ORGANIZATIONNAME = "김성환";
 				TargetAttributes = {
 					E336CA75215CCFF700108CC3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E336CA85215DE87D00108CC3 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -110,6 +151,7 @@
 			projectRoot = "";
 			targets = (
 				E336CA75215CCFF700108CC3 /* COCI2006 */,
+				E336CA85215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E336CA8E215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp in Sources */,
 				E336CA81215CD0C100108CC3 /* C2_3_KOLONE(BOJ3048).cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E336CA82215DE87D00108CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +303,22 @@
 			};
 			name = Release;
 		};
+		E336CA8A215DE87D00108CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E336CA8B215DE87D00108CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +336,15 @@
 			buildConfigurations = (
 				E336CA7E215CCFF700108CC3 /* Debug */,
 				E336CA7F215CCFF700108CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E336CA8C215DE87D00108CC3 /* Build configuration list for PBXNativeTarget "C2_4_SJECISTA(BOJ3049)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E336CA8A215DE87D00108CC3 /* Debug */,
+				E336CA8B215DE87D00108CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
