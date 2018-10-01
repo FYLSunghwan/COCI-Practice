@@ -7,20 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E336CA93215DF9DA00108CC3 /* C4_4_ZBRKA(BOJ3037).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E336CA92215DF9DA00108CC3 /* C4_4_ZBRKA(BOJ3037).cpp */; };
+		E364974B2160CB6F00784128 /* C1_4_ZAPIS(BOJ3012).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E36497442160CB2C00784128 /* C1_4_ZAPIS(BOJ3012).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E336CA74215CCFF700108CC3 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		E336CA84215DE87D00108CC3 /* CopyFiles */ = {
+		E364973F2160CB2C00784128 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -32,23 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E336CA76215CCFF700108CC3 /* COCI2006 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COCI2006; sourceTree = BUILT_PRODUCTS_DIR; };
-		E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_3_KOLONE(BOJ3048).cpp"; sourceTree = "<group>"; };
-		E336CA86215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C2_4_SJECISTA(BOJ3049)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_4_SJECISTA(BOJ3049).cpp"; sourceTree = "<group>"; };
-		E336CA8F215DF7E400108CC3 /* C4_3_PRSTENI(BOJ3036).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C4_3_PRSTENI(BOJ3036).cpp"; sourceTree = "<group>"; };
-		E336CA92215DF9DA00108CC3 /* C4_4_ZBRKA(BOJ3037).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C4_4_ZBRKA(BOJ3037).cpp"; sourceTree = "<group>"; };
+		E36497412160CB2C00784128 /* COCI2007 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COCI2007; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36497442160CB2C00784128 /* C1_4_ZAPIS(BOJ3012).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C1_4_ZAPIS(BOJ3012).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E336CA73215CCFF700108CC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E336CA83215DE87D00108CC3 /* Frameworks */ = {
+		E364973E2160CB2C00784128 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,127 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E336CA6D215CCFF700108CC3 = {
+		E36497382160CB2C00784128 = {
 			isa = PBXGroup;
 			children = (
-				E336CA78215CCFF700108CC3 /* Contest2 */,
-				E336CA77215CCFF700108CC3 /* Products */,
+				E36497432160CB2C00784128 /* COCI2007 */,
+				E36497422160CB2C00784128 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E336CA77215CCFF700108CC3 /* Products */ = {
+		E36497422160CB2C00784128 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E336CA76215CCFF700108CC3 /* COCI2006 */,
-				E336CA86215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */,
+				E36497412160CB2C00784128 /* COCI2007 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E336CA78215CCFF700108CC3 /* Contest2 */ = {
+		E36497432160CB2C00784128 /* COCI2007 */ = {
 			isa = PBXGroup;
 			children = (
-				E336CA79215CCFF700108CC3 /* C2_3_KOLONE(BOJ3048).cpp */,
-				E336CA8F215DF7E400108CC3 /* C4_3_PRSTENI(BOJ3036).cpp */,
-				E336CA92215DF9DA00108CC3 /* C4_4_ZBRKA(BOJ3037).cpp */,
-				E336CA8D215DE8DB00108CC3 /* C2_4_SJECISTA(BOJ3049).cpp */,
+				E36497442160CB2C00784128 /* C1_4_ZAPIS(BOJ3012).cpp */,
 			);
-			name = Contest2;
-			path = COCI2006;
+			path = COCI2007;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E336CA75215CCFF700108CC3 /* COCI2006 */ = {
+		E36497402160CB2C00784128 /* COCI2007 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E336CA7D215CCFF700108CC3 /* Build configuration list for PBXNativeTarget "COCI2006" */;
+			buildConfigurationList = E36497482160CB2C00784128 /* Build configuration list for PBXNativeTarget "COCI2007" */;
 			buildPhases = (
-				E336CA72215CCFF700108CC3 /* Sources */,
-				E336CA73215CCFF700108CC3 /* Frameworks */,
-				E336CA74215CCFF700108CC3 /* CopyFiles */,
+				E364973D2160CB2C00784128 /* Sources */,
+				E364973E2160CB2C00784128 /* Frameworks */,
+				E364973F2160CB2C00784128 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = COCI2006;
-			productName = COCI2006;
-			productReference = E336CA76215CCFF700108CC3 /* COCI2006 */;
-			productType = "com.apple.product-type.tool";
-		};
-		E336CA85215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E336CA8C215DE87D00108CC3 /* Build configuration list for PBXNativeTarget "C2_4_SJECISTA(BOJ3049)" */;
-			buildPhases = (
-				E336CA82215DE87D00108CC3 /* Sources */,
-				E336CA83215DE87D00108CC3 /* Frameworks */,
-				E336CA84215DE87D00108CC3 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "C2_4_SJECISTA(BOJ3049)";
-			productName = "C2_4_SJECISTA(BOJ3049)";
-			productReference = E336CA86215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */;
+			name = COCI2007;
+			productName = COCI2007;
+			productReference = E36497412160CB2C00784128 /* COCI2007 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E336CA6E215CCFF700108CC3 /* Project object */ = {
+		E36497392160CB2C00784128 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "김성환";
 				TargetAttributes = {
-					E336CA75215CCFF700108CC3 = {
-						CreatedOnToolsVersion = 10.0;
-					};
-					E336CA85215DE87D00108CC3 = {
+					E36497402160CB2C00784128 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = E336CA71215CCFF700108CC3 /* Build configuration list for PBXProject "COCI2006" */;
+			buildConfigurationList = E364973C2160CB2C00784128 /* Build configuration list for PBXProject "COCI2007" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E336CA6D215CCFF700108CC3;
-			productRefGroup = E336CA77215CCFF700108CC3 /* Products */;
+			mainGroup = E36497382160CB2C00784128;
+			productRefGroup = E36497422160CB2C00784128 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E336CA75215CCFF700108CC3 /* COCI2006 */,
-				E336CA85215DE87D00108CC3 /* C2_4_SJECISTA(BOJ3049) */,
+				E36497402160CB2C00784128 /* COCI2007 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E336CA72215CCFF700108CC3 /* Sources */ = {
+		E364973D2160CB2C00784128 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E336CA93215DF9DA00108CC3 /* C4_4_ZBRKA(BOJ3037).cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E336CA82215DE87D00108CC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E364974B2160CB6F00784128 /* C1_4_ZAPIS(BOJ3012).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E336CA7B215CCFF700108CC3 /* Debug */ = {
+		E36497462160CB2C00784128 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		E336CA7C215CCFF700108CC3 /* Release */ = {
+		E36497472160CB2C00784128 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +236,7 @@
 			};
 			name = Release;
 		};
-		E336CA7E215CCFF700108CC3 /* Debug */ = {
+		E36497492160CB2C00784128 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -297,23 +244,7 @@
 			};
 			name = Debug;
 		};
-		E336CA7F215CCFF700108CC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		E336CA8A215DE87D00108CC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		E336CA8B215DE87D00108CC3 /* Release */ = {
+		E364974A2160CB2C00784128 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -324,34 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E336CA71215CCFF700108CC3 /* Build configuration list for PBXProject "COCI2006" */ = {
+		E364973C2160CB2C00784128 /* Build configuration list for PBXProject "COCI2007" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E336CA7B215CCFF700108CC3 /* Debug */,
-				E336CA7C215CCFF700108CC3 /* Release */,
+				E36497462160CB2C00784128 /* Debug */,
+				E36497472160CB2C00784128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E336CA7D215CCFF700108CC3 /* Build configuration list for PBXNativeTarget "COCI2006" */ = {
+		E36497482160CB2C00784128 /* Build configuration list for PBXNativeTarget "COCI2007" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E336CA7E215CCFF700108CC3 /* Debug */,
-				E336CA7F215CCFF700108CC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E336CA8C215DE87D00108CC3 /* Build configuration list for PBXNativeTarget "C2_4_SJECISTA(BOJ3049)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E336CA8A215DE87D00108CC3 /* Debug */,
-				E336CA8B215DE87D00108CC3 /* Release */,
+				E36497492160CB2C00784128 /* Debug */,
+				E364974A2160CB2C00784128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E336CA6E215CCFF700108CC3 /* Project object */;
+	rootObject = E36497392160CB2C00784128 /* Project object */;
 }
