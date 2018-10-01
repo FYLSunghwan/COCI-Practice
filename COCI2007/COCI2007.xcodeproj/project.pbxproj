@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E364974B2160CB6F00784128 /* C1_4_ZAPIS(BOJ3012).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E36497442160CB2C00784128 /* C1_4_ZAPIS(BOJ3012).cpp */; };
+		E3234BC521620C0D00F38EDA /* C2_3_PRVA(BOJ3005).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3234BC421620C0D00F38EDA /* C2_3_PRVA(BOJ3005).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E3234BC421620C0D00F38EDA /* C2_3_PRVA(BOJ3005).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_3_PRVA(BOJ3005).cpp"; sourceTree = "<group>"; };
 		E36497412160CB2C00784128 /* COCI2007 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COCI2007; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36497442160CB2C00784128 /* C1_4_ZAPIS(BOJ3012).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C1_4_ZAPIS(BOJ3012).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E36497442160CB2C00784128 /* C1_4_ZAPIS(BOJ3012).cpp */,
+				E3234BC421620C0D00F38EDA /* C2_3_PRVA(BOJ3005).cpp */,
 			);
 			path = COCI2007;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E364974B2160CB6F00784128 /* C1_4_ZAPIS(BOJ3012).cpp in Sources */,
+				E3234BC521620C0D00F38EDA /* C2_3_PRVA(BOJ3005).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
