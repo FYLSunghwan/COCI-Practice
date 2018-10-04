@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E32620572165F88000F45F94 /* C3_4_DEJAVU(BOJ3000).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32620562165F88000F45F94 /* C3_4_DEJAVU(BOJ3000).cpp */; };
+		E3BA334D2165FDCF005390E9 /* C4_3_LEKTIRA(BOJ2993).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3BA334C2165FDCF005390E9 /* C4_3_LEKTIRA(BOJ2993).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		E3289C5B216364AC00D3F886 /* C2_4_TURBO(BOJ3006).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C2_4_TURBO(BOJ3006).cpp"; sourceTree = "<group>"; };
 		E36497412160CB2C00784128 /* COCI2007 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COCI2007; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36497442160CB2C00784128 /* C1_4_ZAPIS(BOJ3012).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C1_4_ZAPIS(BOJ3012).cpp"; sourceTree = "<group>"; };
+		E3BA334C2165FDCF005390E9 /* C4_3_LEKTIRA(BOJ2993).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C4_3_LEKTIRA(BOJ2993).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				E3289C5B216364AC00D3F886 /* C2_4_TURBO(BOJ3006).cpp */,
 				E32620542165E85400F45F94 /* C3_3_TAJNA(BOJ2999).cpp */,
 				E32620562165F88000F45F94 /* C3_4_DEJAVU(BOJ3000).cpp */,
+				E3BA334C2165FDCF005390E9 /* C4_3_LEKTIRA(BOJ2993).cpp */,
 			);
 			path = COCI2007;
 			sourceTree = "<group>";
@@ -126,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E32620572165F88000F45F94 /* C3_4_DEJAVU(BOJ3000).cpp in Sources */,
+				E3BA334D2165FDCF005390E9 /* C4_3_LEKTIRA(BOJ2993).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
