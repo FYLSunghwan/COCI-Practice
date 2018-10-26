@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3B72E552182CFE400E9415A /* C_DOBRA(BOJ2922).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3B72E542182CFE400E9415A /* C_DOBRA(BOJ2922).cpp */; };
+		E3B72E552182CFE400E9415A /* C1_3_DOBRA(BOJ2922).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3B72E542182CFE400E9415A /* C1_3_DOBRA(BOJ2922).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		E3B72E512182CFE400E9415A /* COCI2009 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COCI2009; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3B72E542182CFE400E9415A /* C_DOBRA(BOJ2922).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C_DOBRA(BOJ2922).cpp"; sourceTree = "<group>"; };
+		E3B72E542182CFE400E9415A /* C1_3_DOBRA(BOJ2922).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C1_3_DOBRA(BOJ2922).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		E3B72E532182CFE400E9415A /* COCI2009 */ = {
 			isa = PBXGroup;
 			children = (
-				E3B72E542182CFE400E9415A /* C_DOBRA(BOJ2922).cpp */,
+				E3B72E542182CFE400E9415A /* C1_3_DOBRA(BOJ2922).cpp */,
 			);
 			path = COCI2009;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B72E552182CFE400E9415A /* C_DOBRA(BOJ2922).cpp in Sources */,
+				E3B72E552182CFE400E9415A /* C1_3_DOBRA(BOJ2922).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
